@@ -11,6 +11,7 @@
 		441253B821777E5800E86A39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441253B721777E5800E86A39 /* ViewController.swift */; };
 		441253BA21777E5900E86A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441253B921777E5900E86A39 /* Assets.xcassets */; };
 		441253BD21777E5900E86A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441253BB21777E5900E86A39 /* Main.storyboard */; };
+		44A908A52178B76300421645 /* VpnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A908A42178B76300421645 /* VpnViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		441253BC21777E5900E86A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		441253BE21777E5900E86A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441253BF21777E5900E86A39 /* prototype_vpn_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = prototype_vpn_macos.entitlements; sourceTree = "<group>"; };
+		44A908A42178B76300421645 /* VpnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +55,13 @@
 		441253B421777E5800E86A39 /* prototype-vpn-macos */ = {
 			isa = PBXGroup;
 			children = (
+				441253BF21777E5900E86A39 /* prototype_vpn_macos.entitlements */,
+				441253BE21777E5900E86A39 /* Info.plist */,
 				441253B521777E5800E86A39 /* AppDelegate.swift */,
 				441253B721777E5800E86A39 /* ViewController.swift */,
+				44A908A42178B76300421645 /* VpnViewController.swift */,
 				441253B921777E5900E86A39 /* Assets.xcassets */,
 				441253BB21777E5900E86A39 /* Main.storyboard */,
-				441253BE21777E5900E86A39 /* Info.plist */,
-				441253BF21777E5900E86A39 /* prototype_vpn_macos.entitlements */,
 			);
 			path = "prototype-vpn-macos";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			files = (
 				441253B821777E5800E86A39 /* ViewController.swift in Sources */,
 				441253B621777E5800E86A39 /* AppDelegate.swift in Sources */,
+				44A908A52178B76300421645 /* VpnViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
